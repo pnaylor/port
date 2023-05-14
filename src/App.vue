@@ -5,6 +5,7 @@ import C from "./components/C.vue";
 import Info from "./components/Info.vue";
 import Godot from "./components/Godot.vue";
 import Python from "./components/Python.vue";
+import Vue from "./components/Vue.vue";
 import WebGL from "./components/WebGL.vue";
 
 const tab = ref("");
@@ -13,10 +14,10 @@ const tab = ref("");
 <template>
   <div>
     <img
-      src="./assets/info.svg"
-      @click="tab = 'Info'"
+      src="./assets/Vue.svg"
+      @click="tab = 'Vue'"
       class="logo"
-      alt="info logo"
+      alt="Vue logo"
     />
     <img src="./assets/C.svg" @click="tab = 'C'" class="logo" alt="C++ logo" />
     <img
@@ -31,33 +32,31 @@ const tab = ref("");
       class="logo"
       alt="Godot logo"
     />
-    <img
+    <!-- <img
       src="./assets/WebGL.svg"
       @click="tab = 'WebGL'"
-      class="logo vue"
+      class="logo"
       alt="WebGL logo"
+    /> -->
+    <img
+      src="./assets/info.svg"
+      @click="tab = 'Info'"
+      class="logo"
+      alt="info logo"
     />
   </div>
 
-  {{ tab }}
-
-  <Info v-if="tab === 'Info'" msg="Vite + Vue" />
-  <C v-else-if="tab === 'C'" />
+  <C v-if="tab === 'C'" />
   <Godot v-else-if="tab === 'Godot'" />
   <Python v-else-if="tab === 'Python'" />
+  <Vue v-else-if="tab === 'Vue'" />
   <WebGL v-else-if="tab === 'WebGL'" />
+  <Info v-else-if="tab === 'Info'" msg="Vite + Vue" />
 
   <component :is="tab"></component>
 </template>
 
 <style scoped>
-.color-red {
-  list-style-position: inside;
-}
-.color-red ::marker {
-  color: red;
-}
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -66,8 +65,5 @@ const tab = ref("");
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
 }
 </style>
