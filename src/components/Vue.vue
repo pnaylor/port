@@ -11,17 +11,15 @@
     completed development of the new flagship product for our organization.
   </p>
 
-  <img src="../assets/Vue.brts.png" height="400px" />
+  <img src="../assets/Vue.brts.png" class="fit" />
 
   <h2>Stack for new product</h2>
-
   <img src="../assets/Firebase.svg" class="logo" alt="Firebase logo" />
   <img src="../assets/Vue.svg" class="logo" alt="Vue logo" />
   <img src="../assets/Ionic.svg" class="logo" alt="Ionic logo" />
   <img src="../assets/Capacitor.svg" class="logo" alt="Capacitor logo" />
 
   <h3>Learn More</h3>
-
   <p>
     Find more details <a href="https://influentsin.com/products"> here </a>
     in the Be Ready To Smile & MomMoodBooster product sections.
@@ -34,5 +32,9 @@
   padding: 1em;
   will-change: filter;
   transition: filter 300ms;
+}
+
+.fit {
+  height: 80vh;
 }
 </style>
