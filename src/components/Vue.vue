@@ -31,6 +31,8 @@
 <style scoped>
 div.fit {
   width: 80vw;
+  margin: auto;
+  display: block;
 }
 
 img {
