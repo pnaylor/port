@@ -57,10 +57,12 @@ import { ref } from "vue";
 }
 
 table {
-  width: 40em;
-  /* border: 1px solid; */
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+}
+
+td {
+  vertical-align: top;
 }
 </style>

@@ -11,7 +11,9 @@
     completed development of the new flagship product for our organization.
   </p>
 
-  <img src="../assets/Vue.brts.png" class="fit" />
+  <div class="fit">
+    <img src="../assets/Vue.brts.png" />
+  </div>
 
   <h2>Stack for new product</h2>
   <img src="../assets/Firebase.svg" class="logo" alt="Firebase logo" />
@@ -27,14 +29,19 @@
 </template>
 
 <style scoped>
+div.fit {
+  width: 80vw;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .logo {
   height: 4em;
   padding: 1em;
   will-change: filter;
   transition: filter 300ms;
-}
-
-.fit {
-  height: 80vh;
 }
 </style>
