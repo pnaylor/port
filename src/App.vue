@@ -46,17 +46,34 @@ const tab = ref("");
     />
   </div>
 
-  <C v-if="tab === 'C'" />
-  <Godot v-else-if="tab === 'Godot'" />
-  <Python v-else-if="tab === 'Python'" />
-  <Vue v-else-if="tab === 'Vue'" />
-  <WebGL v-else-if="tab === 'WebGL'" />
-  <Info v-else-if="tab === 'Info'" msg="Vite + Vue" />
+  <Transition name="fade" mode="out-in">
+    <C v-if="tab === 'C'" />
+    <Godot v-else-if="tab === 'Godot'" />
+    <Python v-else-if="tab === 'Python'" />
+    <Vue v-else-if="tab === 'Vue'" />
+    <WebGL v-else-if="tab === 'WebGL'" />
+    <Info v-else-if="tab === 'Info'" />
+  </Transition>
 
   <component :is="tab"></component>
 </template>
 
 <style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.4s ease;
+}
+
+.fade-enter-from {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.fade-leave-to {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
