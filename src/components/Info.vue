@@ -28,11 +28,10 @@
 <style scoped>
 ul {
   text-align: left;
+  list-style-type: square;
 }
 
 h3 {
   text-align: left;
-  list-style-type: square;
-  list-style-position: inside;
 }
 </style>

@@ -4,7 +4,8 @@ import { ref } from "vue";
 
 <template>
   <div>
-    <h2>Computer Graphics & Computational Science Projects ~ 2011</h2>
+    <h2>C++ Computer Graphics & Computational Science Projects</h2>
+    <h5>2011</h5>
 
     <table>
       <tr>
@@ -56,6 +57,10 @@ import { ref } from "vue";
 .icon {
   width: 8em;
   padding: 1em;
+}
+
+img {
+  border-radius: 45px;
 }
 
 table {

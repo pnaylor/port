@@ -2,7 +2,8 @@
 
 <template>
   <div>
-    <h2>White Label Django LMS, 2018 ~ 2020</h2>
+    <h2>White Label Django LMS</h2>
+    <h5>2018 ~ 2020</h5>
     <p>
       This was a project I inherited when starting to work with Oregon Research
       Institute and Influents Innovations. My team and I maintained and enhanced
@@ -21,14 +22,15 @@
       in the 'T-BIDS' product section
     </p>
 
-    <h2>Block Breaker Game ~ 2010</h2>
+    <h2>Block Breaker Game</h2>
+    <h5>2010</h5>
 
     <img src="../assets/Python.breaker1.jpeg" height="320" />
     <img src="../assets/Python.breaker2.jpeg" height="320" />
 
     <p>
-      Breakout style game built using the Pygame library. The extra balls make
-      it a little more interesting than usual.
+      Breakout style game built using the Pygame library. Extra balls make this
+      version more interesting than the original game.
     </p>
 
     <!-- <a
@@ -41,10 +43,7 @@
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+img {
+  padding: 0.8em;
 }
 </style>

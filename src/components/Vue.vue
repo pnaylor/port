@@ -2,11 +2,12 @@
 
 <template>
   <div>
-    <h2>White Label LMS, 2020 ~ 2023</h2>
+    <h2>White Label Vue LMS</h2>
+    <h5>2020 ~ 2023</h5>
     <p>
       This was a project I initiated after working with Oregon Research
       Institute and Influents Innovations on their existing LMS platform for a
-      couple years, and recognizing the need to modernize it. (see the Python
+      couple years, and recognizing the need to modernize it (see the Python
       section for more details on that previous project). I lead the proposal,
       prototyping, and architecture processes for the new iteration of the
       application, and my team completed development of the new flagship product
@@ -17,16 +18,23 @@
       <img src="../assets/Vue.brts.png" />
     </div>
 
-    <h2>Stack for new product</h2>
-    <img src="../assets/Firebase.svg" class="logo" alt="Firebase logo" />
+    <h3>Tech Stack</h3>
     <img src="../assets/Vue.svg" class="logo" alt="Vue logo" />
+    <img src="../assets/TS.svg" class="logo" alt="TypeScript logo" />
     <img src="../assets/Ionic.svg" class="logo" alt="Ionic logo" />
+    <img src="../assets/Firebase.svg" class="logo" alt="Firebase logo" />
     <img src="../assets/Capacitor.svg" class="logo" alt="Capacitor logo" />
+
+    <p>Vue 3</p>
+    <p>TypeScript</p>
+    <p>Ionic Framework</p>
+    <p>Firebase / GCP</p>
+    <p>Capacitor (Native Mobile Apps)</p>
 
     <h3>Learn More</h3>
     <p>
       Find more details <a href="https://influentsin.com/products"> here </a>
-      in the Be Ready To Smile & MomMoodBooster product sections.
+      in the 'Be Ready To Smile' & 'MomMoodBooster' product sections.
     </p>
   </div>
 </template>
@@ -46,7 +54,5 @@ img {
 .logo {
   height: 4em;
   padding: 1em;
-  will-change: filter;
-  transition: filter 300ms;
 }
 </style>

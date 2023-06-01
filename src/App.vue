@@ -17,19 +17,28 @@ const tab = ref("");
       src="./assets/Vue.svg"
       @click="tab = 'Vue'"
       class="logo"
+      :class="{ active: tab === 'Vue' }"
       alt="Vue logo"
     />
-    <img src="./assets/C.svg" @click="tab = 'C'" class="logo" alt="C++ logo" />
+    <img
+      src="./assets/C.svg"
+      @click="tab = 'C'"
+      class="logo"
+      :class="{ active: tab === 'C' }"
+      alt="C++ logo"
+    />
     <img
       src="./assets/Python.svg"
       @click="tab = 'Python'"
       class="logo"
+      :class="{ active: tab === 'Python' }"
       alt="Python logo"
     />
     <img
       src="./assets/Godot.svg"
       @click="tab = 'Godot'"
       class="logo"
+      :class="{ active: tab === 'Godot' }"
       alt="Godot logo"
     />
     <!-- <img
@@ -42,6 +51,7 @@ const tab = ref("");
       src="./assets/info.svg"
       @click="tab = 'Info'"
       class="logo"
+      :class="{ active: tab === 'Info' }"
       alt="info logo"
     />
   </div>
@@ -76,12 +86,16 @@ const tab = ref("");
 
 .logo {
   height: 6em;
-  padding: 1.5em;
+  margin: 2.4em;
   will-change: filter;
-  transition: filter 300ms;
+  transition: filter 0.4s ease-out;
+  transition: transform 0.4s;
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 1.2em blue);
+}
+.active {
+  filter: drop-shadow(0 0 1em green);
 }
 </style>

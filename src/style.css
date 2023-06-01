@@ -57,7 +57,16 @@ h4,
 h5,
 h6 {
   color: green;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 4px 4px 3px black;
+}
+
+img {
+  filter: drop-shadow(0 0 1.2em black);
+  transition: transform 0.4s;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
 
 .card {
