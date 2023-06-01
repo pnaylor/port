@@ -78,6 +78,7 @@ img:hover {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  text-shadow: 2px 2px 2px black;
 }
 
 @media (prefers-color-scheme: light) {

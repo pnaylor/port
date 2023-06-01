@@ -16,6 +16,8 @@
       'A Technology Based Intervention Delivery System (T-BIDS) provides a
       framework for creating web-based intervention applications.'
     </blockquote>
+
+    <h3>Learn More</h3>
     <p>
       Find more details
       <a href="https://influentsin.com/products"> here </a>

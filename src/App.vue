@@ -88,8 +88,7 @@ const tab = ref("");
   height: 6em;
   margin: 2.4em;
   will-change: filter;
-  transition: filter 0.4s ease-out;
-  transition: transform 0.4s;
+  transition: transform 0.4s, filter 0.4s ease-out;
 }
 
 .logo:hover {
