@@ -5,17 +5,28 @@
     <h2>White Label Django LMS</h2>
     <h5>2018 ~ 2020</h5>
     <p>
-      This was a project I inherited when starting to work with Oregon Research
-      Institute and Influents Innovations. My team and I maintained and enhanced
-      the software for a couple years, while expanding it's scope to support a
-      dozen different research projects. Eventually, I lead the effort to
-      rebuild the LMS in a new tech stack (see the Vue sections for more details
-      on that more recent project).
+      This Python project was inherited when I started working with Oregon
+      Research Institute and Influents Innovations. My team and I maintained and
+      enhanced the existing web server and associated mobile apps for a few
+      years, while expanding their scope to support a dozen different research
+      projects.
     </p>
-    <blockquote>
-      'A Technology Based Intervention Delivery System (T-BIDS) provides a
-      framework for creating web-based intervention applications.'
-    </blockquote>
+    <p>
+      A few of the many enhancements I worked on included evolving the project
+      into a progressive web app (PWA), implementing custom landing pages
+      configurable by project managers, and enhancing the web servers to support
+      HTTPS encryption.
+    </p>
+    <p>
+      Eventually, I became intimately familiar with the existing platform and
+      it's limitations. So I lead the successful effort to propose, architect,
+      and rebuild the LMS from scratch using more modern and efficient
+      technologies (see the Vue section for details on that successor project).
+    </p>
+
+    <div class="fit">
+      <img src="../assets/Python.brts.png" />
+    </div>
 
     <h3>Learn More</h3>
     <p>
@@ -47,5 +58,15 @@
 <style scoped>
 img {
   padding: 0.8em;
+}
+
+div.fit {
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+.fit img {
+  width: 48vw;
 }
 </style>

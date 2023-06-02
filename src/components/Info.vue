@@ -6,7 +6,7 @@
       <img src="../assets/LinkedIn.svg" height="200" />
     </a>
 
-    <h3>My interests in computer science span</h3>
+    <h3>My Interests in Computer Science Include</h3>
     <ul>
       <li>Next gen web technologies</li>
       <li>Simulation & virtual worlds</li>
@@ -15,7 +15,7 @@
       <li>Concurrent & high performance computing</li>
     </ul>
 
-    <h3>My education includes diverse topics</h3>
+    <h3>My Diverse Education Included</h3>
     <ul>
       <li>Environmental science</li>
       <li>Human physiology</li>
@@ -27,11 +27,13 @@
 
 <style scoped>
 ul {
-  text-align: left;
   list-style-type: square;
+  margin-left: 20vw;
+  text-align: left;
 }
 
 h3 {
+  margin-left: 18vw;
   text-align: left;
 }
 </style>

@@ -8,19 +8,17 @@ const focus = ref("");
   <div>
     <h2>White Label Vue LMS</h2>
     <h5>2020 ~ 2023</h5>
+
     <p>
       This was a project I initiated after working with Oregon Research
       Institute and Influents Innovations on their existing LMS platform for a
-      couple years, and recognizing the need to modernize it (see the Python
-      section for more details on that previous project). I lead the proposal,
-      prototyping, and architecture processes for the new iteration of the
-      application, and my team completed development of the new flagship product
-      for our organization over a three year process.
+      few years, and recognizing the limitations holding it back (see the Python
+      section for more details on the legacy product). In the first year of the
+      project, I lead the proposal, prototyping, and architecture phases of the
+      software rebuild process. Over the next couple years, my team and I
+      completed development of our organization's new flagship product
+      successfully.
     </p>
-
-    <div class="fit">
-      <img src="../assets/Vue.brts.png" />
-    </div>
 
     <h3>Tech Stack</h3>
     <img
@@ -32,28 +30,12 @@ const focus = ref("");
       alt="Vue logo"
     />
     <img
-      src="../assets/TS.svg"
-      @click="focus = 'ts'"
-      @mouseover="focus = 'ts'"
-      @mouseleave="focus = ''"
-      class="logo"
-      alt="TypeScript logo"
-    />
-    <img
       src="../assets/Ionic.svg"
       @click="focus = 'ionic'"
       @mouseover="focus = 'ionic'"
       @mouseleave="focus = ''"
       class="logo"
       alt="Ionic logo"
-    />
-    <img
-      src="../assets/Capacitor.svg"
-      @click="focus = 'capacitor'"
-      @mouseover="focus = 'capacitor'"
-      @mouseleave="focus = ''"
-      class="logo"
-      alt="Capacitor logo"
     />
     <img
       src="../assets/Firebase.svg"
@@ -63,14 +45,69 @@ const focus = ref("");
       class="logo"
       alt="Firebase logo"
     />
+    <img
+      src="../assets/TS.svg"
+      @click="focus = 'ts'"
+      @mouseover="focus = 'ts'"
+      @mouseleave="focus = ''"
+      class="logo"
+      alt="TypeScript logo"
+    />
+    <img
+      src="../assets/Capacitor.svg"
+      @click="focus = 'capacitor'"
+      @mouseover="focus = 'capacitor'"
+      @mouseleave="focus = ''"
+      class="logo"
+      alt="Capacitor logo"
+    />
 
-    <p :class="{ focused: focus === 'vue' }">Vue 3</p>
-    <p :class="{ focused: focus === 'ts' }">TypeScript</p>
+    <p :class="{ focused: focus === 'vue' }">Vue Framework</p>
     <p :class="{ focused: focus === 'ionic' }">Ionic Framework</p>
+    <p :class="{ focused: focus === 'firebase' }">Firebase + GCP</p>
+    <p :class="{ focused: focus === 'ts' }">TypeScript</p>
     <p :class="{ focused: focus === 'capacitor' }">
       Capacitor (Native Mobile Apps)
     </p>
-    <p :class="{ focused: focus === 'firebase' }">Firebase / GCP</p>
+
+    <h3>Major Enhancements</h3>
+    <table>
+      <tr>
+        <th>New Software Advantages</th>
+        <th>Legacy Software Limitations</th>
+      </tr>
+      <tr>
+        <td>
+          One unified codebase which compiled to native web, iOS, & Android
+          versions
+        </td>
+        <td>
+          Three different codebases, each in a different language, one for each
+          distinct platform we supported
+        </td>
+      </tr>
+      <tr>
+        <td>
+          A cloud based serverless backend architecture, easily scalable and
+          hosted by Google Firebase
+        </td>
+        <td>
+          Custom Django servers, hosted by our inhouse IT staff, and managed
+          manually by me and our small software team
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Modern frontend framework and component libraries for rapid
+          development and supperior visual and interactive quality
+        </td>
+        <td>
+          No frontend framework foundation, all UI/UX design work done from
+          scratch, further hindering our productivity and ability to iterate
+          quickly
+        </td>
+      </tr>
+    </table>
 
     <h3>Learn More</h3>
     <p>
@@ -81,19 +118,24 @@ const focus = ref("");
 </template>
 
 <style scoped>
-div.fit {
-  width: 80vw;
-  margin: auto;
-  display: block;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 p {
   transition: transform 0.4s;
+}
+
+table {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table,
+td {
+  text-align: left;
+  border: 1px solid black;
+}
+
+td {
+  padding: 20px;
 }
 
 .focused {

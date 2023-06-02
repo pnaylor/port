@@ -21,18 +21,18 @@ const tab = ref("");
       alt="Vue logo"
     />
     <img
-      src="./assets/C.svg"
-      @click="tab = 'C'"
-      class="logo"
-      :class="{ active: tab === 'C' }"
-      alt="C++ logo"
-    />
-    <img
       src="./assets/Python.svg"
       @click="tab = 'Python'"
       class="logo"
       :class="{ active: tab === 'Python' }"
       alt="Python logo"
+    />
+    <img
+      src="./assets/C.svg"
+      @click="tab = 'C'"
+      class="logo"
+      :class="{ active: tab === 'C' }"
+      alt="C++ logo"
     />
     <img
       src="./assets/Godot.svg"
