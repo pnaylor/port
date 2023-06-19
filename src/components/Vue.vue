@@ -19,11 +19,14 @@ const focus = ref("");
       This was a project I initiated after working with Oregon Research
       Institute and Influents Innovations on their existing LMS platform for a
       few years and recognizing the limitations holding it back (see the Python
-      section for more details on the legacy product). In the first year of the
-      project, I lead the proposal, prototyping, and architecture phases of the
-      software rebuild process. Next, my team and I completed development after
-      two years of development, then launched our organization's new flagship
-      product across web and mobile platforms successfully.
+      section for more details on the legacy product).
+    </p>
+    <p>
+      In the first year of the project, I lead the proposal, prototyping, and
+      architecture phases of the software rebuild process. Next, my small team
+      and I completed development after two years of development, then launched
+      our organization's new flagship product across web and mobile platforms
+      successfully.
     </p>
 
     <h3>Tech Stack</h3>
@@ -73,7 +76,7 @@ const focus = ref("");
     <p :class="{ focused: focus === 'firebase' }">Firebase + GCP</p>
     <p :class="{ focused: focus === 'ts' }">TypeScript</p>
     <p :class="{ focused: focus === 'capacitor' }">
-      Capacitor (Native Mobile Apps)
+      Capacitor (Hybrid Mobile Apps)
     </p>
 
     <h3>Major Enhancements</h3>
@@ -118,7 +121,7 @@ const focus = ref("");
     <h3>Learn More</h3>
     <p>
       For a sample of hybrid mobile versions of an app compiled with the unified
-      the LMS platform, please check out the
+      LMS platform, please check out the
       <a href="https://apps.apple.com/us/app/beready2smile/id1668492160">
         App Store
       </a>
@@ -140,6 +143,9 @@ const focus = ref("");
 
 <style scoped>
 p {
+  width: 68vw;
+  margin-left: auto;
+  margin-right: auto;
   transition: transform 0.4s;
 }
 

@@ -13,14 +13,14 @@
       This Python project was inherited when I started working with Oregon
       Research Institute and Influents Innovations. My team and I maintained and
       enhanced the existing collection of web apps, servers, databases, and
-      associated mobile apps for a few years while expanding their scope to
-      support a dozen different research projects.
+      associated native mobile apps for a few years while expanding their scope
+      to support a dozen different research projects.
     </p>
     <p>
       A few of the many enhancements I worked on included evolving the project
       into a progressive web app (PWA), implementing custom landing pages
       configurable by project managers, and enhancing the web servers to support
-      HTTPS encryption.
+      HTTPS encryption with auto-renewing certificates.
     </p>
     <p>
       Eventually, I became intimately familiar with the existing platform and
@@ -59,6 +59,10 @@
 <style scoped>
 img {
   padding: 0.8em;
+}
+
+p {
+  width: 68vw;
 }
 
 div.fit {

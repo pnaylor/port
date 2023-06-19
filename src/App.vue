@@ -69,6 +69,10 @@ const tab = ref("");
 </template>
 
 <style scoped>
+.active {
+  filter: drop-shadow(0 0 1em green);
+}
+
 .fade-enter-active,
 .fade-leave-active {
   transition: all 0.4s ease;
@@ -93,8 +97,5 @@ const tab = ref("");
 
 .logo:hover {
   filter: drop-shadow(0 0 1.2em blue);
-}
-.active {
-  filter: drop-shadow(0 0 1em green);
 }
 </style>
