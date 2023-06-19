@@ -4,12 +4,17 @@
   <div>
     <h2>White Label Django LMS</h2>
     <h5>2018 ~ 2020</h5>
+
+    <div class="fit">
+      <img src="../assets/Python.brts.png" />
+    </div>
+
     <p>
       This Python project was inherited when I started working with Oregon
       Research Institute and Influents Innovations. My team and I maintained and
-      enhanced the existing web server and associated mobile apps for a few
-      years, while expanding their scope to support a dozen different research
-      projects.
+      enhanced the existing collection of web apps, servers, databases, and
+      associated mobile apps for a few years while expanding their scope to
+      support a dozen different research projects.
     </p>
     <p>
       A few of the many enhancements I worked on included evolving the project
@@ -19,14 +24,10 @@
     </p>
     <p>
       Eventually, I became intimately familiar with the existing platform and
-      it's limitations. So I lead the successful effort to propose, architect,
+      its limitations. So I lead the successful effort to propose, architect,
       and rebuild the LMS from scratch using more modern and efficient
       technologies (see the Vue section for details on that successor project).
     </p>
-
-    <div class="fit">
-      <img src="../assets/Python.brts.png" />
-    </div>
 
     <h3>Learn More</h3>
     <p>
@@ -67,6 +68,6 @@ div.fit {
 }
 
 .fit img {
-  width: 48vw;
+  width: 68vw;
 }
 </style>

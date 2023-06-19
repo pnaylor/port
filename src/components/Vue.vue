@@ -9,13 +9,19 @@ const focus = ref("");
     <h2>White Label Vue LMS</h2>
     <h5>2020 ~ 2023</h5>
 
+    <img
+      src="../assets/Vue.brts.png"
+      class="banner"
+      alt="be ready to smile images"
+    />
+
     <p>
       This was a project I initiated after working with Oregon Research
       Institute and Influents Innovations on their existing LMS platform for a
-      few years, and recognizing the limitations holding it back (see the Python
+      few years and recognizing the limitations holding it back (see the Python
       section for more details on the legacy product). In the first year of the
       project, I lead the proposal, prototyping, and architecture phases of the
-      software rebuild process. Next my team and I completed development after
+      software rebuild process. Next, my team and I completed development after
       two years of development, then launched our organization's new flagship
       product across web and mobile platforms successfully.
     </p>
@@ -111,15 +117,21 @@ const focus = ref("");
 
     <h3>Learn More</h3>
     <p>
-      For a sample of a native mobile version of an app compiled with the
-      unified the LMS platform, please check out the app store page for one
-      associated projects
+      For a sample of hybrid mobile versions of an app compiled with the unified
+      the LMS platform, please check out the
       <a href="https://apps.apple.com/us/app/beready2smile/id1668492160">
-        here </a
-      >.
+        App Store
+      </a>
+      and
+      <a
+        href="https://play.google.com/store/apps/details?id=app.web.beready2smile"
+      >
+        Play Store
+      </a>
+      pages for one of the associated project.
     </p>
     <p>
-      Find more details about general projects using the LMS platform
+      Find more details about specific projects using the LMS platform
       <a href="https://influentsin.com/products"> here </a> in the 'Be Ready To
       Smile' & 'MomMoodBooster' product sections.
     </p>
@@ -145,6 +157,10 @@ td {
 
 td {
   padding: 20px;
+}
+
+.banner {
+  width: 68vw;
 }
 
 .focused {

@@ -13,35 +13,44 @@
       <li>JavaScript</li>
       <li>HTML</li>
       <li>CSS</li>
+      <li>Clean Coding</li>
+      <li>Documentation</li>
+      <li>Technical Writing</li>
+      <li>Tech Support</li>
+      <li>Project + Issue Tracking</li>
+      <li>Customer Servive</li>
     </ul>
-    <h4>Proficiency 3-9 Years</h4>
+    <h4>Proficient 3-9 Years</h4>
     <ul class="grid">
       <li>Project Management</li>
-      <li>Team Leadership</li>
       <li>Mobile + Hybrid Apps</li>
+      <li>Team Leadership</li>
+      <li>Web Architecture</li>
       <li>TypeScript</li>
       <li>Vue</li>
       <li>Node</li>
       <li>Python</li>
+      <li>Elm</li>
       <li>Git</li>
       <li>SQL</li>
       <li>NoSQL</li>
-      <li>UI/UX</li>
       <li>Firebase</li>
-      <li>Apache</li>
       <li>Django</li>
-      <li>Elm</li>
-      <li>Capacitor</li>
+      <li>UI/UX</li>
       <li>Gamification</li>
+      <li>SDLC + QA</li>
+      <li>Capacitor</li>
+      <li>Operating Systems</li>
+      <li>Apache</li>
     </ul>
     <h4>Experienced 1-2 Years</h4>
     <ul class="grid">
       <li>Progressive Web Apps</li>
       <li>GitHub Actions</li>
-      <li>WordPress</li>
-      <li>Drupal</li>
       <li>PHP</li>
       <li>Java</li>
+      <li>Drupal</li>
+      <li>WordPress</li>
       <li>GCP</li>
       <li>SVN</li>
       <li>XState</li>
@@ -49,9 +58,9 @@
     </ul>
     <h4>Familiar &lt; 1 year</h4>
     <ul class="grid">
+      <li>C++</li>
       <li>Go</li>
       <li>Rust</li>
-      <li>C++</li>
       <li>React</li>
       <li>Angular</li>
       <li>AWS</li>
@@ -61,21 +70,37 @@
       <li>Godot</li>
     </ul>
 
-    <h3>My Interests in Computer Science Include</h3>
+    <h3>Computer Science Interests</h3>
     <ul>
       <li>Next gen web technologies</li>
-      <li>Simulation & virtual worlds</li>
+      <li>Sustainable & open source software</li>
       <li>Educational & social tools</li>
-      <li>Data visualization</li>
-      <li>Concurrent & high performance computing</li>
+      <li>Data visualization & virtualization</li>
+      <li>Simulation & virtual worlds</li>
+      <li>Decentralized governance & blockchain technologies</li>
+      <li>Scientific, concurrent & high performance computing</li>
     </ul>
 
-    <h3>My Diverse Education Included</h3>
-    <ul>
+    <h3>Diverse Education</h3>
+    <ul class="grid">
+      <li>Computer science</li>
       <li>Environmental science</li>
       <li>Human physiology</li>
-      <li>History</li>
       <li>Asian studies</li>
+      <li>History</li>
+      <li>Philosophy</li>
+    </ul>
+
+    <h3>Other Hobbies</h3>
+    <ul class="grid">
+      <li>Tai Chi</li>
+      <li>Qigong</li>
+      <li>Yoga</li>
+      <li>Jeet Kune Do</li>
+      <li>Hiking</li>
+      <li>Gaming</li>
+      <li>Meditation</li>
+      <li>Reading</li>
     </ul>
   </div>
 </template>
@@ -83,7 +108,7 @@
 <style scoped>
 ul {
   list-style-type: square;
-  margin-left: 20vw;
+  margin-left: 18vw;
   text-align: left;
 }
 
