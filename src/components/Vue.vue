@@ -15,9 +15,9 @@ const focus = ref("");
       few years, and recognizing the limitations holding it back (see the Python
       section for more details on the legacy product). In the first year of the
       project, I lead the proposal, prototyping, and architecture phases of the
-      software rebuild process. Over the next couple years, my team and I
-      completed development of our organization's new flagship product
-      successfully.
+      software rebuild process. Next my team and I completed development after
+      two years of development, then launched our organization's new flagship
+      product across web and mobile platforms successfully.
     </p>
 
     <h3>Tech Stack</h3>
@@ -111,8 +111,17 @@ const focus = ref("");
 
     <h3>Learn More</h3>
     <p>
-      Find more details <a href="https://influentsin.com/products"> here </a>
-      in the 'Be Ready To Smile' & 'MomMoodBooster' product sections.
+      For a sample of a native mobile version of an app compiled with the
+      unified the LMS platform, please check out the app store page for one
+      associated projects
+      <a href="https://apps.apple.com/us/app/beready2smile/id1668492160">
+        here </a
+      >.
+    </p>
+    <p>
+      Find more details about general projects using the LMS platform
+      <a href="https://influentsin.com/products"> here </a> in the 'Be Ready To
+      Smile' & 'MomMoodBooster' product sections.
     </p>
   </div>
 </template>
