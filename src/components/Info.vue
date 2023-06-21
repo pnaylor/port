@@ -36,12 +36,14 @@
       <li>NoSQL</li>
       <li>Firebase</li>
       <li>Django</li>
-      <li>UI/UX</li>
-      <li>Gamification</li>
-      <li>SDLC + QA</li>
-      <li>Capacitor</li>
-      <li>Operating Systems</li>
       <li>Apache</li>
+      <li>Gamification</li>
+      <li>UI / UX</li>
+      <li>SDLC + QA</li>
+      <li>Operating Systems</li>
+      <li>Capacitor</li>
+      <li>Agile Development</li>
+      <li>Remote Collaboration</li>
     </ul>
     <h4>Experienced 1-2 Years</h4>
     <ul class="grid">
@@ -77,7 +79,7 @@
       <li>Educational & social tools</li>
       <li>Data visualization & virtualization</li>
       <li>Simulation & virtual worlds</li>
-      <li>Decentralized governance & blockchain technologies</li>
+      <li>Decentralized governance & blockchain tech</li>
       <li>Scientific, concurrent & high performance computing</li>
     </ul>
 

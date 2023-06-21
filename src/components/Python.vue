@@ -26,7 +26,7 @@
       Eventually, I became intimately familiar with the existing platform and
       its limitations. So I lead the successful effort to propose, architect,
       and rebuild the LMS from scratch using more modern and efficient
-      technologies (see the Vue section for details on that successor project).
+      technologies (see Vue section for details on the successor project).
     </p>
 
     <h3>Learn More</h3>
@@ -63,6 +63,8 @@ img {
 
 p {
   width: 68vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.fit {

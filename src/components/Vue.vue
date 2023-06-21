@@ -6,7 +6,7 @@ const focus = ref("");
 
 <template>
   <div>
-    <h2>White Label Vue LMS</h2>
+    <h2>White Label Cross-Platform Vue LMS</h2>
     <h5>2020 ~ 2023</h5>
 
     <img
@@ -18,7 +18,7 @@ const focus = ref("");
     <p>
       This was a project I initiated after working with Oregon Research
       Institute and Influents Innovations on their existing LMS platform for a
-      few years and recognizing the limitations holding it back (see the Python
+      few years and recognizing the limitations holding it back (see Python
       section for more details on the legacy product).
     </p>
     <p>
@@ -87,12 +87,12 @@ const focus = ref("");
       </tr>
       <tr>
         <td>
-          One unified codebase which compiled to native web, iOS, & Android
+          One unified codebase which compiled to native web, iOS & Android
           versions
         </td>
         <td>
-          Three different codebases, each in a different language, one for each
-          distinct platform we supported
+          Three different codebases, one for each platform supported, and each
+          in a different language
         </td>
       </tr>
       <tr>
@@ -120,8 +120,8 @@ const focus = ref("");
 
     <h3>Learn More</h3>
     <p>
-      For a sample of hybrid mobile versions of an app compiled with the unified
-      LMS platform, please check out the
+      For a sample of hybrid mobile versions of an app compiled from the unified
+      LMS platform, please check out these
       <a href="https://apps.apple.com/us/app/beready2smile/id1668492160">
         App Store
       </a>
@@ -131,10 +131,11 @@ const focus = ref("");
       >
         Play Store
       </a>
-      pages for one of the associated project.
+      pages of an associated project.
     </p>
     <p>
-      Find more details about specific projects using the LMS platform
+      Find more details about specific projects utilizing the custom LMS
+      platform
       <a href="https://influentsin.com/products"> here </a> in the 'Be Ready To
       Smile' & 'MomMoodBooster' product sections.
     </p>
