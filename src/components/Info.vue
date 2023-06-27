@@ -72,15 +72,17 @@
       <li>Godot</li>
     </ul>
 
-    <h3>Computer Science Interests</h3>
+    <h3>General Tech Interests</h3>
     <ul>
       <li>Next gen web technologies</li>
-      <li>Sustainable & open source software</li>
+      <li>Interactivity & gamification</li>
+      <li>Cross-platform & hybrid apps</li>
       <li>Educational & social tools</li>
-      <li>Data visualization & virtualization</li>
-      <li>Simulation & virtual worlds</li>
-      <li>Decentralized governance & blockchain tech</li>
+      <li>Data visualization, simulation & virtualization</li>
+      <li>Sustainable & open source software</li>
+      <li>Decentralized governance, democracy & blockchains</li>
       <li>Scientific, concurrent & high performance computing</li>
+      <li>& More</li>
     </ul>
 
     <h3>Diverse Education</h3>

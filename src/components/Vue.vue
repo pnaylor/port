@@ -6,7 +6,7 @@ const focus = ref("");
 
 <template>
   <div>
-    <h2>White Label Cross-Platform Vue LMS</h2>
+    <h2>White Label Cross-Platform Vue Learning Management System</h2>
     <h5>2020 ~ 2023</h5>
 
     <img
@@ -22,7 +22,7 @@ const focus = ref("");
       section for more details on the legacy product).
     </p>
     <p>
-      In the first year of the project, I lead the proposal, prototyping, and
+      In the first year of the project, I lad the proposal, prototyping, and
       architecture phases of the software rebuild process. Next, my small team
       and I completed development after two years of development, then launched
       our organization's new flagship product across web and mobile platforms

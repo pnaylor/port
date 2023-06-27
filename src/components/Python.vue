@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <h2>White Label Django LMS</h2>
+    <h2>White Label Django Learning Management Platform</h2>
     <h5>2018 ~ 2020</h5>
 
     <div class="fit">
@@ -24,8 +24,8 @@
     </p>
     <p>
       Eventually, I became intimately familiar with the existing platform and
-      its limitations. So I lead the successful effort to propose, architect,
-      and rebuild the LMS from scratch using more modern and efficient
+      its limitations. So I led the successful efforts to propose, architect,
+      and rebuild the LMS platform from scratch using more modern and efficient
       technologies (see Vue section for details on the successor project).
     </p>
 
