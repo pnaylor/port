@@ -17,15 +17,15 @@
       <li>Documentation</li>
       <li>Technical Writing</li>
       <li>Tech Support</li>
-      <li>Project + Issue Tracking</li>
+      <li>Project & Issue Tracking</li>
       <li>Customer Servive</li>
     </ul>
     <h4>Proficient 3-9 Years</h4>
     <ul class="grid">
-      <li>Project Management</li>
-      <li>Mobile + Hybrid Apps</li>
-      <li>Team Leadership</li>
       <li>Web Architecture</li>
+      <li>Team Leadership</li>
+      <li>Project Management</li>
+      <li>Hybrid Mobile Apps / Capacitor</li>
       <li>TypeScript</li>
       <li>Vue</li>
       <li>Node</li>
@@ -36,14 +36,16 @@
       <li>NoSQL</li>
       <li>Firebase</li>
       <li>Django</li>
+      <li>AJAX</li>
       <li>Apache</li>
-      <li>Gamification</li>
       <li>UI / UX</li>
-      <li>SDLC + QA</li>
+      <li>SDLC & QA</li>
+      <li>Gamification</li>
+      <li>Microservices</li>
+      <li>Custom CMS / LMS</li>
       <li>Operating Systems</li>
-      <li>Capacitor</li>
-      <li>Agile Development</li>
       <li>Remote Collaboration</li>
+      <li>Agile Development</li>
     </ul>
     <h4>Experienced 1-2 Years</h4>
     <ul class="grid">
@@ -56,7 +58,8 @@
       <li>GCP</li>
       <li>SVN</li>
       <li>XState</li>
-      <li>CI/CD</li>
+      <li>CI / CD</li>
+      <li>TDD</li>
     </ul>
     <h4>Familiar &lt; 1 year</h4>
     <ul class="grid">
@@ -83,16 +86,6 @@
       <li>Decentralized governance, democracy & blockchains</li>
       <li>Scientific, concurrent & high performance computing</li>
       <li>& More</li>
-    </ul>
-
-    <h3>Diverse Education</h3>
-    <ul class="grid">
-      <li>Computer science</li>
-      <li>Environmental science</li>
-      <li>Human physiology</li>
-      <li>Asian studies</li>
-      <li>History</li>
-      <li>Philosophy</li>
     </ul>
 
     <h3>Other Hobbies</h3>
