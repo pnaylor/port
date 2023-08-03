@@ -1,8 +1,8 @@
-<script setup lang="ts">
-import { ref } from "vue";
-</script>
+<script setup lang="ts"></script>
 
 <template>
+  <h3>Coming Soon: WebGL Demo</h3>
+  <!--
   <h2>WebGL Benchmark ~ 2012</h2>
 
   <canvas id="canvas" width="658" height="410"></canvas>
@@ -15,6 +15,7 @@ import { ref } from "vue";
   <p>A basic benchmark exercise created to experiment with WebGL.</p>
   <p>The JavaScript and OpenGL source is available in this page.</p>
   <p>Click & drag to rotate camera.</p>
+  -->
 </template>
 
 <style scoped></style>

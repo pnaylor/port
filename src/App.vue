@@ -34,19 +34,20 @@ const tab = ref("");
       :class="{ active: tab === 'C' }"
       alt="C++ logo"
     />
-    <img
+    <!-- <img
       src="./assets/Godot.svg"
       @click="tab = 'Godot'"
       class="logo"
       :class="{ active: tab === 'Godot' }"
       alt="Godot logo"
-    />
-    <!-- <img
+    /> -->
+    <img
       src="./assets/WebGL.svg"
       @click="tab = 'WebGL'"
       class="logo"
+      :class="{ active: tab === 'WebGL' }"
       alt="WebGL logo"
-    /> -->
+    />
     <img
       src="./assets/info.svg"
       @click="tab = 'Info'"
@@ -55,6 +56,8 @@ const tab = ref("");
       alt="info logo"
     />
   </div>
+
+  Tab: {{ tab }}
 
   <Transition name="fade" mode="out-in">
     <C v-if="tab === 'C'" />
