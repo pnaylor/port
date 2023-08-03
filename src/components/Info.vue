@@ -15,27 +15,23 @@
       <li>CSS</li>
       <li>Clean Coding</li>
       <li>Documentation</li>
-      <li>Technical Writing</li>
-      <li>Tech Support</li>
-      <li>Project & Issue Tracking</li>
-      <li>Customer Servive</li>
     </ul>
     <h4>Proficient 3-9 Years</h4>
     <ul class="grid">
-      <li>Web Architecture</li>
-      <li>Team Leadership</li>
+      <li>Hybrid Apps / Capacitor</li>
+      <li>Web Architecture & APIs</li>
       <li>Project Management</li>
-      <li>Hybrid Mobile Apps / Capacitor</li>
-      <li>TypeScript</li>
+      <li>Team Leadership</li>
       <li>Vue</li>
+      <li>TypeScript</li>
       <li>Node</li>
+      <li>Django</li>
       <li>Python</li>
       <li>Elm</li>
       <li>Git</li>
       <li>SQL</li>
       <li>NoSQL</li>
       <li>Firebase</li>
-      <li>Django</li>
       <li>AJAX</li>
       <li>Apache</li>
       <li>UI / UX</li>
@@ -46,6 +42,8 @@
       <li>Operating Systems</li>
       <li>Remote Collaboration</li>
       <li>Agile Development</li>
+      <li>Customer Service</li>
+      <li>Technical Writing & Support</li>
     </ul>
     <h4>Experienced 1-2 Years</h4>
     <ul class="grid">
@@ -60,6 +58,7 @@
       <li>XState</li>
       <li>CI / CD</li>
       <li>TDD</li>
+      <li>SASS</li>
     </ul>
     <h4>Familiar &lt; 1 year</h4>
     <ul class="grid">

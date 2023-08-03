@@ -24,7 +24,7 @@
     </p>
     <p>
       Eventually, I became intimately familiar with the existing platform and
-      its limitations relative to the goals for the project. So I led the
+      its limitations relative to future goals for the platform. So I led the
       successful efforts to propose, architect, and rebuild the LMS platform
       from scratch using innovative and efficient technologies (see Vue section
       for details on the successor project).
