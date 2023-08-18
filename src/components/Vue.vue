@@ -28,6 +28,7 @@ const focus = ref("");
       development, then launched our organization's new flagship product across
       web and mobile platforms successfully.
     </p>
+    <br />
 
     <h3>Tech Stack</h3>
     <img
@@ -47,12 +48,12 @@ const focus = ref("");
       alt="Ionic logo"
     />
     <img
-      src="../assets/Firebase.svg"
-      @click="focus = 'firebase'"
-      @mouseover="focus = 'firebase'"
+      src="../assets/Node.svg"
+      @click="focus = 'node'"
+      @mouseover="focus = 'node'"
       @mouseleave="focus = ''"
       class="logo"
-      alt="Firebase logo"
+      alt="Node logo"
     />
     <img
       src="../assets/TS.svg"
@@ -61,6 +62,14 @@ const focus = ref("");
       @mouseleave="focus = ''"
       class="logo"
       alt="TypeScript logo"
+    />
+    <img
+      src="../assets/Firebase.svg"
+      @click="focus = 'firebase'"
+      @mouseover="focus = 'firebase'"
+      @mouseleave="focus = ''"
+      class="logo"
+      alt="Firebase logo"
     />
     <img
       src="../assets/Capacitor.svg"
@@ -73,11 +82,13 @@ const focus = ref("");
 
     <p :class="{ focused: focus === 'vue' }">Vue Framework</p>
     <p :class="{ focused: focus === 'ionic' }">Ionic Framework</p>
-    <p :class="{ focused: focus === 'firebase' }">Firebase + GCP</p>
+    <p :class="{ focused: focus === 'node' }">Node.js</p>
     <p :class="{ focused: focus === 'ts' }">TypeScript</p>
+    <p :class="{ focused: focus === 'firebase' }">Firebase + GCP</p>
     <p :class="{ focused: focus === 'capacitor' }">
       Capacitor (Hybrid Mobile Apps)
     </p>
+    <br />
 
     <h3>Major Enhancements</h3>
     <table>
@@ -117,6 +128,7 @@ const focus = ref("");
         </td>
       </tr>
     </table>
+    <br />
 
     <h3>Learn More</h3>
     <p>
