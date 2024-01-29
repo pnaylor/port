@@ -34,6 +34,7 @@ const tab = ref("");
       :class="{ active: tab === 'C' }"
       alt="C++ logo"
     />
+    <!-- 
     <img
       src="./assets/Godot.svg"
       @click="tab = 'Godot'"
@@ -41,12 +42,13 @@ const tab = ref("");
       :class="{ active: tab === 'Godot' }"
       alt="Godot logo"
     />
-    <!-- <img
+    <img
       src="./assets/WebGL.svg"
       @click="tab = 'WebGL'"
       class="logo"
       alt="WebGL logo"
-    /> -->
+    />
+    -->
     <img
       src="./assets/info.svg"
       @click="tab = 'Info'"
@@ -66,9 +68,20 @@ const tab = ref("");
   </Transition>
 
   <component :is="tab"></component>
+
+  <footer>
+    Paul Naylor
+    <br />
+    Made with
+    <img src="./assets/Vue.svg" class="icon" alt="Vue logo" />ue
+  </footer>
 </template>
 
 <style scoped>
+footer {
+  /* position: fixed; */
+  margin-top: 48%;
+}
 .active {
   filter: drop-shadow(0 0 1em green);
 }
@@ -88,6 +101,10 @@ const tab = ref("");
   transform: translateY(10px);
 }
 
+.icon {
+  height: 0.88em;
+}
+
 .logo {
   height: 6em;
   margin: 2.4em;
@@ -97,5 +114,12 @@ const tab = ref("");
 
 .logo:hover {
   filter: drop-shadow(0 0 1.2em blue);
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    height: 4em;
+    margin: 1.2em;
+  }
 }
 </style>

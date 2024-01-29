@@ -89,14 +89,14 @@
 
     <h3>Other Hobbies</h3>
     <ul class="grid">
+      <li>Reading</li>
+      <li>Gaming</li>
       <li>Tai Chi</li>
       <li>Qigong</li>
       <li>Yoga</li>
       <li>Jeet Kune Do</li>
       <li>Hiking</li>
-      <li>Gaming</li>
       <li>Meditation</li>
-      <li>Reading</li>
     </ul>
   </div>
 </template>
