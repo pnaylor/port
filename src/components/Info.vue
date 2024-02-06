@@ -11,8 +11,8 @@
     <ul class="grid">
       <li>Web Apps</li>
       <li>JavaScript</li>
-      <li>HTML</li>
-      <li>CSS</li>
+      <li>HTML5</li>
+      <li>CSS3</li>
       <li>Clean Coding</li>
       <li>Documentation</li>
     </ul>
@@ -35,6 +35,7 @@
       <li>AJAX</li>
       <li>Apache</li>
       <li>UI / UX</li>
+      <li>VS Code</li>
       <li>SDLC & QA</li>
       <li>Gamification</li>
       <li>Microservices</li>
@@ -52,12 +53,13 @@
       <li>PHP</li>
       <li>Java</li>
       <li>Drupal</li>
-      <li>WordPress</li>
       <li>GCP</li>
-      <li>SVN</li>
+      <li>WordPress</li>
+      <li>Vite</li>
       <li>XState</li>
       <li>CI / CD</li>
       <li>TDD</li>
+      <li>SVN</li>
       <li>SASS</li>
     </ul>
     <h4>Familiar &lt; 1 year</h4>
