@@ -6,70 +6,72 @@
       <img src="../assets/LinkedIn.svg" height="200" />
     </a>
 
-    <h3>Skills</h3>
+    <h2>Skills</h2>
     <h4>Expertise 10+ Years</h4>
     <ul class="grid">
       <li>Web Apps</li>
       <li>JavaScript</li>
       <li>HTML5</li>
       <li>CSS3</li>
-      <li>Clean Coding</li>
+      <li>Clean Code</li>
       <li>Documentation</li>
     </ul>
     <h4>Proficient 3-9 Years</h4>
     <ul class="grid">
-      <li>Hybrid Apps / Capacitor</li>
-      <li>Web Architecture & APIs</li>
-      <li>Project Management</li>
-      <li>Team Leadership</li>
-      <li>Vue</li>
+      <li>Python</li>
       <li>TypeScript</li>
+      <li>Vue</li>
       <li>Node</li>
       <li>Django</li>
-      <li>Python</li>
-      <li>Elm</li>
       <li>Git</li>
       <li>SQL</li>
       <li>NoSQL</li>
       <li>Firebase</li>
-      <li>AJAX</li>
-      <li>Apache</li>
       <li>UI / UX</li>
-      <li>VS Code</li>
+      <li>Hybrid Apps / Capacitor</li>
+      <li>Web Architecture & APIs</li>
+      <li>Project Management</li>
+      <li>Team Leadership</li>
       <li>SDLC & QA</li>
       <li>Gamification</li>
       <li>Microservices</li>
       <li>Custom CMS / LMS</li>
+      <li>DevOps & CI / CD</li>
+      <li>VS Code</li>
       <li>Operating Systems</li>
+      <li>Apache</li>
+      <li>AJAX</li>
+      <li>Elm</li>
       <li>Remote Collaboration</li>
       <li>Agile Development</li>
       <li>Customer Service</li>
       <li>Technical Writing & Support</li>
+      <li>Communication</li>
     </ul>
     <h4>Experienced 1-2 Years</h4>
     <ul class="grid">
       <li>Progressive Web Apps</li>
       <li>GitHub Actions</li>
       <li>PHP</li>
-      <li>Java</li>
       <li>Drupal</li>
       <li>GCP</li>
+      <li>Java</li>
       <li>WordPress</li>
       <li>Vite</li>
       <li>XState</li>
-      <li>CI / CD</li>
       <li>TDD</li>
       <li>SVN</li>
       <li>SASS</li>
     </ul>
     <h4>Familiar &lt; 1 year</h4>
     <ul class="grid">
-      <li>C++</li>
-      <li>Go</li>
-      <li>Rust</li>
       <li>React</li>
-      <li>Angular</li>
+      <li>C++</li>
+      <li>Rust</li>
+      <li>Go</li>
       <li>AWS</li>
+      <li>Mojo</li>
+      <li>Angular</li>
       <li>WebGL</li>
       <li>GraphQL</li>
       <li>Selenium</li>
@@ -86,7 +88,6 @@
       <li>Sustainable & open source software</li>
       <li>Decentralized governance, democracy & blockchains</li>
       <li>Scientific, concurrent & high performance computing</li>
-      <li>& More</li>
     </ul>
 
     <h3>Other Hobbies</h3>
