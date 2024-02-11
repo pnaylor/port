@@ -46,7 +46,6 @@
       <li>Agile Development</li>
       <li>Customer Service</li>
       <li>Technical Writing & Support</li>
-      <li>Communication</li>
     </ul>
     <h4>Experienced 1-2 Years</h4>
     <ul class="grid">
@@ -101,28 +100,22 @@
       <li>Hiking</li>
       <li>Meditation</li>
     </ul>
+
+    <a href="https://github.com/pnaylor">
+      <img src="../assets/GitHub.svg" height="200" />
+    </a>
   </div>
 </template>
 
 <style scoped>
 ul {
   list-style-type: square;
-  margin-left: 18vw;
+  margin-left: 8vw;
   text-align: left;
 }
 
 ul.grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-h3 {
-  margin-left: 18vw;
-  text-align: left;
-}
-
-h4 {
-  margin-left: 20vw;
-  text-align: left;
 }
 </style>

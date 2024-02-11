@@ -79,8 +79,7 @@ const tab = ref("");
 
 <style scoped>
 footer {
-  /* position: fixed; */
-  margin-top: 48%;
+  margin-top: 38%;
 }
 .active {
   filter: drop-shadow(0 0 1em green);
