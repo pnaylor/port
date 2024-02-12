@@ -2,7 +2,8 @@
 
 <template>
   <div>
-    <h2>White Label Django Learning Management Platform</h2>
+    <h1>Python</h1>
+    <h2>Django White Label Learning Management Platform</h2>
     <h5>2018 ~ 2020</h5>
 
     <div class="fit">
@@ -37,6 +38,9 @@
       in the 'T-BIDS' product section
     </p>
 
+    <hr />
+    <br />
+
     <h2>Block Breaker Game</h2>
     <h5>2010</h5>
 
@@ -45,7 +49,7 @@
 
     <p>
       Breakout style game built using the Pygame library. Extra balls make this
-      version more interesting than the original game.
+      version more fun than the original game.
     </p>
 
     <!-- <a

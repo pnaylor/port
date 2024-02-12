@@ -66,6 +66,14 @@ h6 {
   text-shadow: 4px 4px 3px black;
 }
 
+hr {
+  width: 40%;
+  border: none;
+  height: 50px;
+  border-bottom: 2px solid black;
+  box-shadow: 0 20px 20px -20px blue;
+}
+
 img {
   filter: drop-shadow(0 0 1.2em black);
   transition: transform 0.4s;

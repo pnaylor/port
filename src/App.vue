@@ -3,38 +3,38 @@ import { ref } from "vue";
 
 import C from "./components/C.vue";
 import Info from "./components/Info.vue";
-import Godot from "./components/Godot.vue";
 import Python from "./components/Python.vue";
+import ScrollUp from "./components/ScrollUp.vue";
 import Vue from "./components/Vue.vue";
-import WebGL from "./components/WebGL.vue";
 
 const tab = ref("");
 </script>
 
 <template>
   <div>
-    <img
-      src="./assets/Vue.svg"
-      @click="tab = 'Vue'"
-      class="logo"
-      :class="{ active: tab === 'Vue' }"
-      alt="Vue logo"
-    />
-    <img
-      src="./assets/Python.svg"
-      @click="tab = 'Python'"
-      class="logo"
-      :class="{ active: tab === 'Python' }"
-      alt="Python logo"
-    />
-    <img
-      src="./assets/C.svg"
-      @click="tab = 'C'"
-      class="logo"
-      :class="{ active: tab === 'C' }"
-      alt="C++ logo"
-    />
-    <!-- 
+    <div>
+      <img
+        src="./assets/Vue.svg"
+        @click="tab = 'Vue'"
+        class="logo"
+        :class="{ active: tab === 'Vue' }"
+        alt="Vue logo"
+      />
+      <img
+        src="./assets/Python.svg"
+        @click="tab = 'Python'"
+        class="logo"
+        :class="{ active: tab === 'Python' }"
+        alt="Python logo"
+      />
+      <img
+        src="./assets/C.svg"
+        @click="tab = 'C'"
+        class="logo"
+        :class="{ active: tab === 'C' }"
+        alt="C++ logo"
+      />
+      <!-- 
     <img
       src="./assets/Godot.svg"
       @click="tab = 'Godot'"
@@ -49,32 +49,35 @@ const tab = ref("");
       alt="WebGL logo"
     />
     -->
-    <img
-      src="./assets/info.svg"
-      @click="tab = 'Info'"
-      class="logo"
-      :class="{ active: tab === 'Info' }"
-      alt="info logo"
-    />
+      <img
+        src="./assets/info.svg"
+        @click="tab = 'Info'"
+        class="logo"
+        :class="{ active: tab === 'Info' }"
+        alt="info logo"
+      />
+    </div>
+
+    <Transition name="fade" mode="out-in">
+      <C v-if="tab === 'C'" />
+      <Python v-else-if="tab === 'Python'" />
+      <Vue v-else-if="tab === 'Vue'" />
+      <Info v-else-if="tab === 'Info'" />
+    </Transition>
+
+    <component :is="tab"></component>
+
+    <footer>
+      Paul Naylor
+      <br />
+      Made with
+      <img src="./assets/Vue.svg" class="icon" alt="Vue logo" />ue
+
+      <br />
+
+      <ScrollUp />
+    </footer>
   </div>
-
-  <Transition name="fade" mode="out-in">
-    <C v-if="tab === 'C'" />
-    <Godot v-else-if="tab === 'Godot'" />
-    <Python v-else-if="tab === 'Python'" />
-    <Vue v-else-if="tab === 'Vue'" />
-    <WebGL v-else-if="tab === 'WebGL'" />
-    <Info v-else-if="tab === 'Info'" />
-  </Transition>
-
-  <component :is="tab"></component>
-
-  <footer>
-    Paul Naylor
-    <br />
-    Made with
-    <img src="./assets/Vue.svg" class="icon" alt="Vue logo" />ue
-  </footer>
 </template>
 
 <style scoped>

@@ -6,7 +6,8 @@ const focus = ref("");
 
 <template>
   <div>
-    <h2>White Label Cross-Platform Vue Learning Management Platform</h2>
+    <h1>Vue</h1>
+    <h2>Cross-Platform White Label Learning Management Platform</h2>
     <h5>2020 ~ 2023</h5>
 
     <img
@@ -18,8 +19,9 @@ const focus = ref("");
     <p>
       This was a project I initiated after working with Oregon Research
       Institute and Influents Innovations on their existing LMS platform for a
-      few years and recognizing the limitations holding it back (see Python
-      section for more details on the legacy product).
+      few years and recognizing the limitations holding it back.
+      <br />
+      (See Python section for more details on the legacy product)
     </p>
     <p>
       In the first year of the project, I led the proposal, prototyping, and
@@ -150,6 +152,19 @@ const focus = ref("");
       platform
       <a href="https://influentsin.com/products"> here </a> in the 'Be Ready To
       Smile' & 'MomMoodBooster' product sections.
+    </p>
+
+    <hr />
+    <br />
+
+    <h2>Pokemon Browser</h2>
+    <h5>2023</h5>
+
+    <img src="../assets/Pokemon.png" height="320" />
+
+    <p>
+      This mini-project queries a public Pokemon database API then presents the
+      thirteen hundred characters in a paginated and sortable browser.
     </p>
   </div>
 </template>

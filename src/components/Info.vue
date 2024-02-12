@@ -2,6 +2,8 @@
 
 <template>
   <div>
+    <h1>Paul Naylor</h1>
+    <h3>Web Applications & Software Engineer</h3>
     <a href="https://linkedin.com/in/naylorp">
       <img src="../assets/LinkedIn.svg" height="200" />
     </a>
@@ -35,9 +37,9 @@
       <li>SDLC & QA</li>
       <li>Gamification</li>
       <li>Microservices</li>
-      <li>Custom CMS / LMS</li>
-      <li>DevOps & CI / CD</li>
       <li>VS Code</li>
+      <li>DevOps & CI / CD</li>
+      <li>Custom CMS / LMS</li>
       <li>Operating Systems</li>
       <li>Apache</li>
       <li>AJAX</li>
@@ -100,6 +102,8 @@
       <li>Hiking</li>
       <li>Meditation</li>
     </ul>
+
+    <br />
 
     <a href="https://github.com/pnaylor">
       <img src="../assets/GitHub.svg" height="200" />
