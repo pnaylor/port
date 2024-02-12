@@ -13,7 +13,7 @@ const focus = ref("");
     <img
       src="../assets/Vue.brts.png"
       class="banner"
-      alt="be ready to smile images"
+      alt="Be Ready to Smile images"
     />
 
     <p>
@@ -160,11 +160,16 @@ const focus = ref("");
     <h2>Pokemon Browser</h2>
     <h5>2023</h5>
 
-    <img src="../assets/Pokemon.png" height="320" />
+    <img src="../assets/Pokemon.png" class="banner" alt="Pokemon project" />
 
     <p>
-      This mini-project queries a public Pokemon database API then presents the
-      thirteen hundred characters in a paginated and sortable browser.
+      This mini-project queries a public Pokemon database API then presents over
+      a thousand characters in a paginated and sortable browser. The project can
+      be cloned and demoed and the code browsed in
+      <a href="https://github.com/pnaylor/pokemon" alt="Pokemon Github repo">
+        GitHub
+      </a>
+      .
     </p>
   </div>
 </template>

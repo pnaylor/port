@@ -27,6 +27,8 @@ onBeforeUnmount(() => {
 <style scoped>
 .scroll-up {
   position: fixed;
+  background-color: black;
+  color: green;
   bottom: 20px;
   right: 20px;
 }

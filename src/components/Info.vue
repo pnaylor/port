@@ -5,7 +5,7 @@
     <h1>Paul Naylor</h1>
     <h3>Web Applications & Software Engineer</h3>
     <a href="https://linkedin.com/in/naylorp">
-      <img src="../assets/LinkedIn.svg" height="200" />
+      <img src="../assets/LinkedIn.svg" height="200" alt="LinkedIn Profile" />
     </a>
 
     <h2>Skills</h2>
@@ -106,7 +106,7 @@
     <br />
 
     <a href="https://github.com/pnaylor">
-      <img src="../assets/GitHub.svg" height="200" />
+      <img src="../assets/GitHub.svg" height="200" alt="GitHub Profile" />
     </a>
   </div>
 </template>
