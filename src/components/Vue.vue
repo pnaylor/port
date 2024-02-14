@@ -30,66 +30,7 @@ const focus = ref("");
       development, then launched our organization's new flagship product across
       web and mobile platforms successfully.
     </p>
-    <br />
 
-    <h4>Tech Stack</h4>
-    <img
-      src="../assets/Vue.svg"
-      @click="focus = 'vue'"
-      @mouseover="focus = 'vue'"
-      @mouseleave="focus = ''"
-      class="logo"
-      alt="Vue logo"
-    />
-    <img
-      src="../assets/Ionic.svg"
-      @click="focus = 'ionic'"
-      @mouseover="focus = 'ionic'"
-      @mouseleave="focus = ''"
-      class="logo"
-      alt="Ionic logo"
-    />
-    <img
-      src="../assets/Node.svg"
-      @click="focus = 'node'"
-      @mouseover="focus = 'node'"
-      @mouseleave="focus = ''"
-      class="logo"
-      alt="Node logo"
-    />
-    <img
-      src="../assets/TS.svg"
-      @click="focus = 'ts'"
-      @mouseover="focus = 'ts'"
-      @mouseleave="focus = ''"
-      class="logo"
-      alt="TypeScript logo"
-    />
-    <img
-      src="../assets/Firebase.svg"
-      @click="focus = 'firebase'"
-      @mouseover="focus = 'firebase'"
-      @mouseleave="focus = ''"
-      class="logo"
-      alt="Firebase logo"
-    />
-    <img
-      src="../assets/Capacitor.svg"
-      @click="focus = 'capacitor'"
-      @mouseover="focus = 'capacitor'"
-      @mouseleave="focus = ''"
-      class="logo"
-      alt="Capacitor logo"
-    />
-
-    <p :class="{ focused: focus === 'vue' }">Vue Framework</p>
-    <p :class="{ focused: focus === 'ionic' }">Ionic Framework</p>
-    <p :class="{ focused: focus === 'node' }">Node.js</p>
-    <p :class="{ focused: focus === 'ts' }">TypeScript</p>
-    <p :class="{ focused: focus === 'firebase' }">Firebase + GCP</p>
-    <p :class="{ focused: focus === 'capacitor' }">
-      Capacitor (Hybrid Mobile Apps)
-    </p>
     <br />
 
     <h4>Major Enhancements</h4>
@@ -130,6 +71,68 @@ const focus = ref("");
         </td>
       </tr>
     </table>
+
+    <br />
+
+    <h4>Tech Stack</h4>
+    <img
+      src="../assets/TS.svg"
+      @click="focus = 'ts'"
+      @mouseover="focus = 'ts'"
+      @mouseleave="focus = ''"
+      class="logo"
+      alt="TypeScript logo"
+    />
+    <img
+      src="../assets/Node.svg"
+      @click="focus = 'node'"
+      @mouseover="focus = 'node'"
+      @mouseleave="focus = ''"
+      class="logo"
+      alt="Node logo"
+    />
+    <img
+      src="../assets/Vue.svg"
+      @click="focus = 'vue'"
+      @mouseover="focus = 'vue'"
+      @mouseleave="focus = ''"
+      class="logo"
+      alt="Vue logo"
+    />
+    <img
+      src="../assets/Firebase.svg"
+      @click="focus = 'firebase'"
+      @mouseover="focus = 'firebase'"
+      @mouseleave="focus = ''"
+      class="logo"
+      alt="Firebase logo"
+    />
+    <img
+      src="../assets/Ionic.svg"
+      @click="focus = 'ionic'"
+      @mouseover="focus = 'ionic'"
+      @mouseleave="focus = ''"
+      class="logo"
+      alt="Ionic logo"
+    />
+    <img
+      src="../assets/Capacitor.svg"
+      @click="focus = 'capacitor'"
+      @mouseover="focus = 'capacitor'"
+      @mouseleave="focus = ''"
+      class="logo"
+      alt="Capacitor logo"
+    />
+
+    <p :class="{ focused: focus === 'ts' }">TypeScript</p>
+    <p :class="{ focused: focus === 'node' }">Node.js</p>
+    <p :class="{ focused: focus === 'vue' }">Vue Framework</p>
+    <p :class="{ focused: focus === 'firebase' }">Firebase + GCP</p>
+    <p :class="{ focused: focus === 'ionic' }">Ionic Framework</p>
+    <p :class="{ focused: focus === 'capacitor' }">
+      Capacitor Hybrid Mobile Apps
+    </p>
+
     <br />
 
     <h4>Learn More</h4>
@@ -207,7 +210,7 @@ td {
 }
 
 .logo {
-  height: 4em;
+  height: 3em;
   padding: 1em;
 }
 
