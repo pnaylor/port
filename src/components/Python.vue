@@ -2,8 +2,8 @@
 
 <template>
   <div>
-    <h1>Python</h1>
-    <h2>Django White Label Learning Management Platform</h2>
+    <h2>Python Projects</h2>
+    <h3>Django White Label Learning Management Platform</h3>
     <h5>2018 ~ 2020</h5>
 
     <div class="fit">
@@ -31,7 +31,7 @@
       for details on the successor project).
     </p>
 
-    <h3>Learn More</h3>
+    <h4>Learn More</h4>
     <p>
       Find more details
       <a href="https://influentsin.com/products"> here </a>
@@ -41,7 +41,7 @@
     <hr />
     <br />
 
-    <h2>Block Breaker Game</h2>
+    <h3>Block Breaker Game</h3>
     <h5>2010</h5>
 
     <img src="../assets/Python.breaker1.jpeg" height="320" />

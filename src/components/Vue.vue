@@ -6,8 +6,8 @@ const focus = ref("");
 
 <template>
   <div>
-    <h1>Vue</h1>
-    <h2>Cross-Platform White Label Learning Management Platform</h2>
+    <h2>Vue Projects</h2>
+    <h3>Cross-Platform White Label Learning Management Platform</h3>
     <h5>2020 ~ 2023</h5>
 
     <img
@@ -32,7 +32,7 @@ const focus = ref("");
     </p>
     <br />
 
-    <h3>Tech Stack</h3>
+    <h4>Tech Stack</h4>
     <img
       src="../assets/Vue.svg"
       @click="focus = 'vue'"
@@ -92,7 +92,7 @@ const focus = ref("");
     </p>
     <br />
 
-    <h3>Major Enhancements</h3>
+    <h4>Major Enhancements</h4>
     <table>
       <tr>
         <th>New Software Advantages</th>
@@ -132,7 +132,7 @@ const focus = ref("");
     </table>
     <br />
 
-    <h3>Learn More</h3>
+    <h4>Learn More</h4>
     <p>
       For a sample of hybrid mobile versions of an app compiled from the unified
       LMS platform, please check out these
@@ -157,7 +157,7 @@ const focus = ref("");
     <hr />
     <br />
 
-    <h2>Pokemon Browser</h2>
+    <h3>Pokemon Browser</h3>
     <h5>2023</h5>
 
     <img src="../assets/Pokemon.png" class="banner" alt="Pokemon project" />

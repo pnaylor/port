@@ -6,8 +6,8 @@ const focus = ref("");
 
 <template>
   <div>
-    <h1>C++</h1>
-    <h2>Data Science & Visualization</h2>
+    <h2>C++ Projects</h2>
+    <h3>Data Science & Visualization</h3>
     <h5>2011</h5>
 
     <table>

@@ -2,13 +2,13 @@
 
 <template>
   <div>
-    <h1>Paul Naylor</h1>
+    <h2>Paul Naylor</h2>
     <h3>Web Applications & Software Engineer</h3>
     <a href="https://linkedin.com/in/naylorp">
       <img src="../assets/LinkedIn.svg" height="200" alt="LinkedIn Profile" />
     </a>
 
-    <h2>Skills</h2>
+    <h3>Skills</h3>
     <h4>Expertise 10+ Years</h4>
     <ul class="grid">
       <li>Web Apps</li>
@@ -26,6 +26,8 @@
       <li>Node</li>
       <li>Django</li>
       <li>Git</li>
+      <li>PHP</li>
+      <li>Java</li>
       <li>SQL</li>
       <li>NoSQL</li>
       <li>Firebase</li>
@@ -53,10 +55,8 @@
     <ul class="grid">
       <li>Progressive Web Apps</li>
       <li>GitHub Actions</li>
-      <li>PHP</li>
       <li>Drupal</li>
       <li>GCP</li>
-      <li>Java</li>
       <li>WordPress</li>
       <li>Vite</li>
       <li>XState</li>

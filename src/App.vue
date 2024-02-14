@@ -18,6 +18,7 @@ const tab = ref("");
         @click="tab = 'Vue'"
         class="logo"
         :class="{ active: tab === 'Vue' }"
+        title="Vue Projects"
         alt="Vue logo"
       />
       <img
@@ -25,6 +26,7 @@ const tab = ref("");
         @click="tab = 'Python'"
         class="logo"
         :class="{ active: tab === 'Python' }"
+        title="Python Projects"
         alt="Python logo"
       />
       <img
@@ -32,6 +34,7 @@ const tab = ref("");
         @click="tab = 'C'"
         class="logo"
         :class="{ active: tab === 'C' }"
+        title="C++ Projects"
         alt="C++ logo"
       />
       <!-- 
@@ -54,6 +57,7 @@ const tab = ref("");
         @click="tab = 'Info'"
         class="logo"
         :class="{ active: tab === 'Info' }"
+        title="About Me"
         alt="info logo"
       />
     </div>
@@ -67,23 +71,19 @@ const tab = ref("");
 
     <component :is="tab"></component>
 
-    <footer>
+    <footer v-if="tab !== ''">
+      <hr />
+      <br />
       Paul Naylor
       <br />
-      Made with
+      Handmade with
       <img src="./assets/Vue.svg" class="icon" alt="Vue logo" />ue
-
-      <br />
-
       <ScrollUp />
     </footer>
   </div>
 </template>
 
 <style scoped>
-footer {
-  margin-top: 38%;
-}
 .active {
   filter: drop-shadow(0 0 1em green);
 }
