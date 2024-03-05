@@ -41,22 +41,22 @@ const focus = ref("");
       </tr>
       <tr>
         <td>
-          One unified codebase which compiled to native web, iOS & Android
-          versions
+          One unified codebase which compiles to native web, iOS & Android
+          mobile versions
         </td>
         <td>
-          Three different codebases, one for each platform supported, and each
-          in a different language
+          Three different codebases, one for each platform supported, each in a
+          different language
         </td>
       </tr>
       <tr>
         <td>
-          A cloud based serverless backend architecture, easily scalable and
+          Cloud based serverless backend architecture, easily scalable and
           hosted by Google Firebase
         </td>
         <td>
-          Custom Django servers, hosted by our inhouse IT staff, and managed
-          manually by me and our small software team
+          Custom Django / Apache web servers, hosted by inhouse IT staff,
+          managed manually by me primarily and our small software team
         </td>
       </tr>
       <tr>
@@ -65,9 +65,9 @@ const focus = ref("");
           development and supperior visual and interactive quality
         </td>
         <td>
-          No frontend framework foundation, all UI/UX design work done from
-          scratch, further hindering our productivity and ability to iterate
-          quickly
+          No frontend framework foundation, all UI/UX design work done with
+          basic Django templates, further hindering our productivity and ability
+          to iterate quickly
         </td>
       </tr>
     </table>

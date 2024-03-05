@@ -71,6 +71,7 @@
       <li>Rust</li>
       <li>Go</li>
       <li>AWS</li>
+      <li>HTMX</li>
       <li>Mojo</li>
       <li>Angular</li>
       <li>WebGL</li>
