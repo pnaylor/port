@@ -62,7 +62,7 @@ const tab = ref("");
       />
     </nav>
 
-    <h2 v-if="tab === ''">Where to?</h2>
+    <h2 v-if="tab === ''">Welcome, please select a topic.</h2>
 
     <Transition name="fade" mode="out-in">
       <C v-if="tab === 'C'" />

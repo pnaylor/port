@@ -50,9 +50,10 @@
         <li>Apache</li>
         <li>AJAX</li>
         <li>Elm</li>
-        <li>Remote Collaboration</li>
-        <li>Agile Development</li>
+        <li>JSON / XML</li>
         <li>Customer Service</li>
+        <li>Agile Development</li>
+        <li>Remote Collaboration</li>
         <li>Technical Writing & Support</li>
       </ul>
       <h3>Experienced 1-2 Years</h3>
@@ -67,6 +68,7 @@
         <li>TDD</li>
         <li>SVN</li>
         <li>SASS</li>
+        <li>YAML / MarkDown</li>
       </ul>
       <h3>Familiar &lt; 1 year</h3>
       <ul class="grid">

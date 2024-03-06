@@ -10,9 +10,7 @@
         <h4>2018 ~ 2020</h4>
       </header>
 
-      <div class="fit">
-        <img src="../assets/Python.brts.png" />
-      </div>
+      <img src="../assets/Python.brts.png" class="fit" alt="Django Apps" />
 
       <section>
         <p>
@@ -40,9 +38,8 @@
       <section>
         <h3>Learn More</h3>
         <p>
-          Find more details
-          <a href="https://influentsin.com/products"> here </a>
-          in the 'T-BIDS' product section
+          Find more details on the 'T-BIDS' platform
+          <a href="https://influentsin.com/products">here.</a>
         </p>
       </section>
     </article>
@@ -82,15 +79,5 @@ p {
   width: 68vw;
   margin-left: auto;
   margin-right: auto;
-}
-
-div.fit {
-  height: auto;
-  margin: auto;
-  display: block;
-}
-
-.fit img {
-  width: 68vw;
 }
 </style>

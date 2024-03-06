@@ -87,6 +87,10 @@ img:hover {
   padding: 2em;
 }
 
+.fit {
+  width: 68vw;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;

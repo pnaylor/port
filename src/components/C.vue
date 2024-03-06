@@ -18,11 +18,12 @@ const focus = ref("");
             src="../assets/C.shapes.jpeg"
             @click="focus = 'shapes'"
             @mouseover="focus = 'shapes'"
+            alt="3D Scene"
           />
         </td>
         <td class="text-cell">
           <h4 @click="focus = 'shapes'" @mouseover="focus = 'shapes'">
-            OpenGL Scene
+            OpenGL 3D Scene
           </h4>
           <p :class="{ focused: focus === 'shapes' }">
             Draws a lit scene with various rotating objects. Camera can rotate
@@ -37,6 +38,7 @@ const focus = ref("");
             src="../assets/C.laplace.jpeg"
             @click="focus = 'laplace'"
             @mouseover="focus = 'laplace'"
+            alt="Laplace Heatmap"
           />
         </td>
         <td class="text-cell">
@@ -56,6 +58,7 @@ const focus = ref("");
             src="../assets/C.mandel.jpeg"
             @click="focus = 'mandel'"
             @mouseover="focus = 'mandel'"
+            alt="Mandelbrot Set"
           />
         </td>
         <td class="text-cell">
@@ -75,14 +78,15 @@ const focus = ref("");
             src="../assets/C.nbody.jpeg"
             @click="focus = 'nbody'"
             @mouseover="focus = 'nbody'"
+            alt="Planetary Orbits"
           />
         </td>
         <td class="text-cell">
           <h4 @click="focus = 'nbody'" @mouseover="focus = 'nbody'">
-            OpenMPI N-Body Orbits
+            OpenMPI N-Body Planetary Orbits
           </h4>
           <p :class="{ focused: focus === 'nbody' }">
-            Simulates the planetary rotations of our solar system as an n-body
+            Simulates the planetary orbits of our solar system as an n-body
             problem, calculated in parallel via message passing. Visualized as a
             ten year orbit of the planets.
           </p>

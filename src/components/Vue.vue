@@ -14,11 +14,7 @@ const focus = ref("");
         <h4>2020 ~ 2023</h4>
       </header>
 
-      <img
-        src="../assets/Vue.brts.png"
-        class="banner"
-        alt="Be Ready to Smile images"
-      />
+      <img src="../assets/Vue.brts.png" alt="Vue Apps" class="fit" />
 
       <section>
         <p>
@@ -178,16 +174,15 @@ const focus = ref("");
         <h4>2023</h4>
       </header>
 
-      <img src="../assets/Pokemon.png" class="banner" alt="Pokemon project" />
+      <img src="../assets/Pokemon.png" class="fit" alt="Pokemon Project" />
 
       <p>
         This mini-project queries a public Pokemon database API then presents
         over a thousand characters in a paginated and sortable browser. The
         project can be cloned and demoed and the code browsed in
         <a href="https://github.com/pnaylor/pokemon" alt="Pokemon Github repo">
-          GitHub
+          GitHub.
         </a>
-        .
       </p>
     </article>
   </main>
@@ -215,10 +210,6 @@ td {
 
 td {
   padding: 20px;
-}
-
-.banner {
-  width: 68vw;
 }
 
 .focused {
