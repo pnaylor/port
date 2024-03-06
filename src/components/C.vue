@@ -5,10 +5,11 @@ const focus = ref("");
 </script>
 
 <template>
-  <div>
-    <h2>C++ Projects</h2>
-    <h3>Data Science & Visualization</h3>
-    <h5>2011</h5>
+  <main>
+    <header><h1>C++ Projects</h1></header>
+
+    <h2>Data Science & Visualization</h2>
+    <h4>2011</h4>
 
     <table>
       <tr>
@@ -88,7 +89,7 @@ const focus = ref("");
         </td>
       </tr>
     </table>
-  </div>
+  </main>
 </template>
 
 <style scoped>

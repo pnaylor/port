@@ -12,7 +12,7 @@ const tab = ref("");
 
 <template>
   <div>
-    <div>
+    <nav>
       <img
         src="./assets/Vue.svg"
         @click="tab = 'Vue'"
@@ -60,7 +60,9 @@ const tab = ref("");
         title="About Me"
         alt="info logo"
       />
-    </div>
+    </nav>
+
+    <h2>Where to?</h2>
 
     <Transition name="fade" mode="out-in">
       <C v-if="tab === 'C'" />
@@ -71,7 +73,7 @@ const tab = ref("");
 
     <component :is="tab"></component>
 
-    <footer v-if="tab !== ''">
+    <footer>
       <hr />
       <br />
       Paul Naylor
