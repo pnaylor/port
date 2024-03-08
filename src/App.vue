@@ -87,7 +87,7 @@ const tab = ref("");
 
 <style scoped>
 .active {
-  filter: drop-shadow(0 0 1em green);
+  filter: drop-shadow(0 0 0.8em green);
 }
 
 .fade-enter-active,
@@ -117,7 +117,7 @@ const tab = ref("");
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 1.2em blue);
+  filter: drop-shadow(0 0 0.8em blue);
 }
 
 @media only screen and (max-width: 600px) {
