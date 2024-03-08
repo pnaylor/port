@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build && bash copy-dist.sh",
+    "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
