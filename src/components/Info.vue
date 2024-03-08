@@ -62,8 +62,9 @@
         <li>GitHub Actions</li>
         <li>Drupal</li>
         <li>GCP</li>
-        <li>WordPress</li>
+        <li>C++</li>
         <li>Vite</li>
+        <li>WordPress</li>
         <li>XState</li>
         <li>TDD</li>
         <li>SVN</li>
@@ -73,11 +74,10 @@
       <h3>Familiar &lt; 1 year</h3>
       <ul class="grid">
         <li>React</li>
-        <li>C++</li>
+        <li>HTMX</li>
         <li>Rust</li>
         <li>Go</li>
         <li>AWS</li>
-        <li>HTMX</li>
         <li>Mojo</li>
         <li>Angular</li>
         <li>WebGL</li>
