@@ -78,14 +78,14 @@ const focus = ref("");
 
       <br />
 
+      <h3>Tech Stack</h3>
       <section>
-        <h3>Tech Stack</h3>
         <img
           src="../assets/TS.svg"
           @click="focus = 'ts'"
           @mouseover="focus = 'ts'"
           @mouseleave="focus = ''"
-          class="logo"
+          :class="{ logo: true, focused: focus === 'ts' }"
           alt="TypeScript logo"
         />
         <img
@@ -93,7 +93,7 @@ const focus = ref("");
           @click="focus = 'node'"
           @mouseover="focus = 'node'"
           @mouseleave="focus = ''"
-          class="logo"
+          :class="{ logo: true, focused: focus === 'node' }"
           alt="Node logo"
         />
         <img
@@ -101,7 +101,7 @@ const focus = ref("");
           @click="focus = 'vue'"
           @mouseover="focus = 'vue'"
           @mouseleave="focus = ''"
-          class="logo"
+          :class="{ logo: true, focused: focus === 'vue' }"
           alt="Vue logo"
         />
         <img
@@ -109,7 +109,7 @@ const focus = ref("");
           @click="focus = 'firebase'"
           @mouseover="focus = 'firebase'"
           @mouseleave="focus = ''"
-          class="logo"
+          :class="{ logo: true, focused: focus === 'firebase' }"
           alt="Firebase logo"
         />
         <img
@@ -117,7 +117,7 @@ const focus = ref("");
           @click="focus = 'ionic'"
           @mouseover="focus = 'ionic'"
           @mouseleave="focus = ''"
-          class="logo"
+          :class="{ logo: true, focused: focus === 'ionic' }"
           alt="Ionic logo"
         />
         <img
@@ -125,15 +125,57 @@ const focus = ref("");
           @click="focus = 'capacitor'"
           @mouseover="focus = 'capacitor'"
           @mouseleave="focus = ''"
-          class="logo"
+          :class="{ logo: true, focused: focus === 'capacitor' }"
           alt="Capacitor logo"
         />
-        <p :class="{ focused: focus === 'ts' }">TypeScript</p>
-        <p :class="{ focused: focus === 'node' }">Node.js</p>
-        <p :class="{ focused: focus === 'vue' }">Vue Framework</p>
-        <p :class="{ focused: focus === 'firebase' }">Firebase + GCP</p>
-        <p :class="{ focused: focus === 'ionic' }">Ionic Framework</p>
-        <p :class="{ focused: focus === 'capacitor' }">
+      </section>
+      <section>
+        <p
+          @click="focus = 'ts'"
+          @mouseover="focus = 'ts'"
+          @mouseleave="focus = ''"
+          :class="{ focused: focus === 'ts' }"
+        >
+          TypeScript
+        </p>
+        <p
+          @click="focus = 'node'"
+          @mouseover="focus = 'node'"
+          @mouseleave="focus = ''"
+          :class="{ focused: focus === 'node' }"
+        >
+          Node.js
+        </p>
+        <p
+          @click="focus = 'vue'"
+          @mouseover="focus = 'vue'"
+          @mouseleave="focus = ''"
+          :class="{ focused: focus === 'vue' }"
+        >
+          Vue Framework
+        </p>
+        <p
+          @click="focus = 'firebase'"
+          @mouseover="focus = 'firebase'"
+          @mouseleave="focus = ''"
+          :class="{ focused: focus === 'firebase' }"
+        >
+          Firebase + GCP
+        </p>
+        <p
+          @click="focus = 'ionic'"
+          @mouseover="focus = 'ionic'"
+          @mouseleave="focus = ''"
+          :class="{ focused: focus === 'ionic' }"
+        >
+          Ionic Framework
+        </p>
+        <p
+          @click="focus = 'capacitor'"
+          @mouseover="focus = 'capacitor'"
+          @mouseleave="focus = ''"
+          :class="{ focused: focus === 'capacitor' }"
+        >
           Capacitor Hybrid Mobile Apps
         </p>
       </section>
@@ -212,16 +254,17 @@ td {
   padding: 20px;
 }
 
-.focused {
-  transform: scale(1.8);
-}
-
 .logo {
   height: 3em;
   padding: 1em;
 }
 
+.focused,
 .logo:hover {
   transform: scale(1.4);
+}
+
+p.focused {
+  transform: scale(1.8);
 }
 </style>

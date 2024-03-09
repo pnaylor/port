@@ -121,6 +121,7 @@ const tab = ref("");
 
 .logo:hover {
   filter: drop-shadow(0 0 0.8em blue);
+  transform: scale(1.24);
 }
 
 @media only screen and (max-width: 600px) {

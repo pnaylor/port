@@ -99,7 +99,7 @@ const focus = ref("");
 <style scoped>
 img {
   border-radius: 45px;
-  width: 8em;
+  width: 20vw;
   padding: 1em;
 }
 
