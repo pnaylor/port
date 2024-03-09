@@ -7,7 +7,12 @@
     <section>
       <h2>Web Applications & Software Engineer</h2>
       <a href="https://linkedin.com/in/naylorp">
-        <img src="../assets/LinkedIn.svg" height="200" alt="LinkedIn Profile" />
+        <img
+          src="../assets/LinkedIn.svg"
+          title="LinkedIn Profile"
+          alt="LinkedIn Profile"
+          height="200"
+        />
       </a>
     </section>
 
@@ -67,6 +72,7 @@
         <li>WordPress</li>
         <li>XState</li>
         <li>TDD</li>
+        <li>Selenium</li>
         <li>SVN</li>
         <li>SASS</li>
         <li>YAML / MarkDown</li>
@@ -82,7 +88,6 @@
         <li>Angular</li>
         <li>WebGL</li>
         <li>GraphQL</li>
-        <li>Selenium</li>
         <li>Godot</li>
       </ul>
     </section>
@@ -116,7 +121,12 @@
     <br />
 
     <a href="https://github.com/pnaylor">
-      <img src="../assets/GitHub.svg" height="200" alt="GitHub Profile" />
+      <img
+        src="../assets/GitHub.svg"
+        title="GitHub Profile"
+        alt="GitHub Profile"
+        height="200"
+      />
     </a>
   </main>
 </template>

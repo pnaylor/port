@@ -27,9 +27,9 @@
           to support HTTPS encryption with auto-renewing certificates.
         </p>
         <p>
-          Eventually, I became intimately familiar with the existing platform
-          and its limitations relative to future goals for the platform. So I
-          led the successful efforts to propose, architect, and rebuild the LMS
+          Eventually, I became all too familiar with the existing platform and
+          its limitations relative to future goals for the platform. So I led
+          the successful efforts to propose, architect, and rebuild the LMS
           platform from scratch using innovative and efficient technologies (see
           Vue section for details on the successor project).
         </p>
@@ -58,7 +58,7 @@
       </section>
       <p>
         Breakout style game built using the Pygame library. Extra balls make
-        this version more fun than the original game.
+        this version more fun than the original version.
       </p>
     </article>
 

@@ -176,7 +176,7 @@ const focus = ref("");
           @mouseleave="focus = ''"
           :class="{ focused: focus === 'capacitor' }"
         >
-          Capacitor Hybrid Mobile Apps
+          Capacitor Mobile Apps
         </p>
       </section>
 
@@ -239,7 +239,7 @@ p {
 }
 
 table {
-  max-width: 80%;
+  max-width: 48vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -266,5 +266,11 @@ td {
 
 p.focused {
   transform: scale(1.8);
+}
+
+@media only screen and (max-width: 888px) {
+  table {
+    max-width: 88vw;
+  }
 }
 </style>

@@ -1,5 +1,7 @@
 <template>
-  <button class="scroll-up" @click="scrollUp" v-if="isVisible">^</button>
+  <transition name="fade">
+    <button class="scroll-up" @click="scrollUp" v-if="isVisible">^</button>
+  </transition>
 </template>
 
 <script setup lang="ts">
@@ -26,10 +28,14 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .scroll-up {
+  background-color: rgb(0, 188, 0);
+  box-shadow: 1px 1px 4px green;
+  color: black;
+  font-size: large;
+  height: 2em;
   position: fixed;
-  background-color: black;
-  color: green;
   bottom: 20px;
   right: 20px;
+  opacity: 0.68;
 }
 </style>

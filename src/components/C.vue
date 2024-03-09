@@ -99,12 +99,13 @@ const focus = ref("");
 <style scoped>
 img {
   border-radius: 45px;
-  width: 20vw;
+  width: 24vw;
   padding: 1em;
 }
 
 p {
-  opacity: 0;
+  width: 24vw;
+  opacity: 0; /* hide until hovered */
   font-size: 0.4em;
   transition: opacity 1.2s, font-size 1s;
 }
@@ -113,20 +114,24 @@ table {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  max-width: 80%;
+  overflow-x: hidden;
 }
 
 td {
   vertical-align: top;
 }
 
-td.text-cell {
-  width: 70%;
-}
-
 .focused {
   font-size: 1em;
   opacity: 1;
   transition: opacity 2.4s, font-size 1s;
+}
+@media only screen and (max-width: 888px) {
+  img {
+    width: 38cqi;
+  }
+  p {
+    width: 38cqi;
+  }
 }
 </style>
