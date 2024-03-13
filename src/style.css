@@ -99,7 +99,7 @@ img:hover {
   text-shadow: 4px 4px 2px black;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -110,4 +110,4 @@ img:hover {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
