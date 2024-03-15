@@ -90,7 +90,7 @@ const tab = ref("");
 
 <style scoped>
 .active {
-  filter: drop-shadow(0 0 0.8em green);
+  filter: drop-shadow(0 0 0.8em rgb(0, 180, 0));
 }
 
 .fade-enter-active,

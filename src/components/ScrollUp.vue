@@ -28,8 +28,8 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .scroll-up {
-  background-color: rgb(0, 188, 0);
-  box-shadow: 1px 1px 4px green;
+  background-color: rgb(0, 200, 0);
+  box-shadow: 1px 1px 4px blue;
   color: black;
   font-size: large;
   height: 2em;
